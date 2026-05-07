@@ -3,7 +3,7 @@
 $servidor = "mysql-cristian1995.alwaysdata.net";
 $usuario = "cristian1995";
 $password = "clase123";
-$bd = "tienda_motos";
+$bd = "cristian1995_gestiondemovimientos";
 
 $conn = mysqli_connect($servidor, $usuario, $password, $bd);
 
