@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    background: linear-gradient(135deg,#0f172a,#1e293b);
+    color: white;
+}
+
+header{
+    background: #111827;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.4);
+}
+
+header h1{
+    margin: 0;
+    color: #facc15;
+    font-size: 40px;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.formulario{
+    background: #1e293b;
+    padding: 25px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.5);
+}
+
+input{
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+button{
+    background: #facc15;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+button:hover{
+    background: #eab308;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    color: black;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+table th{
+    background: #facc15;
+    padding: 15px;
+}
+
+table td{
+    padding: 12px;
+    text-align: center;
+}
+
+.btn-editar{
+    background: #2563eb;
+    color: white;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.btn-eliminar{
+    background: #dc2626;
+    color: white;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 8px;
+}
